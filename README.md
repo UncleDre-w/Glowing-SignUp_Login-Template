@@ -13,11 +13,10 @@ Welcome to the Glowing Login & Sign-Up Page project! 🌟 This project features 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/glowing-login-signup.git
-    ```
+    git clone https://github.com/UncleDre-w/Glowing-SignUp_Login-Template.git
 2. Navigate to the project directory:
     ```bash
-    cd glowing-login-signup
+    cd Glowing-SignUp_Login-Template
     ```
 3. Open `SignUp.html` in your preferred browser.
 
