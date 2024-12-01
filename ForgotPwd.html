@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <form class="form">
+                <h1>Reset Password</h1>
+                <p>Enter your email address, and we'll send
+                    you a link to reset your password.
+                </p>
+                <input type="email" class="email" placeholder="Enter your email">
+                <button class="reset">Send Reset Link</button>
+                <a href="login.html">Back to Login</a>
+            </form>
+        </div>
+    </div>
+
+<style>
+body{
+    margin: 0;
+    background-color: #272a2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}    
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+    animation: rotate-shadow 3s infinite;
+}    
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}    
+.email{
+    height: 32px;
+    width: 300px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.reset{
+    height: 30px;
+    width: 310px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(99, 37, 99);
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+}
+.reset:hover{
+    background-color: rgb(48, 2, 48);
+}
+a{
+    margin-bottom: 8px;
+    color: aqua;
+    transition: 0.5s;
+}
+a:hover{
+    color: rgb(177, 138, 214);
+}
+p{
+   width: 340px;
+    text-align: center;
+    margin-top: 10px;
+}
+h1{
+    margin-top: 10px;
+}
+@keyframes rotate-shadow{
+0% {
+box-shadow: 0 0 10px 2px 
+rgba(0, 255, 255, 0.5),0 0 20px 5px rgba(255, 0, 255, 0.5);
+}
+50%{
+box-shadow: 0 0 30px 6px 
+rgba(0, 255, 255, 0.8),0 0 40px 10px rgba(255, 0, 255, 0.8);
+}
+100%{ box-shadow: 0 0 10px 2px 
+rgba(0, 255, 255, 0.5),0 0 20px 5px rgba(255, 0, 255, 0.5);
+}
+}
+</style>
+</body>
+</html>

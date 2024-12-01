@@ -1,0 +1,128 @@
+.reme{
+    display: flex;
+}
+.form-1{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.forgot-password{
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.dont{
+    color: white;
+}
+.contain-1{
+flex-wrap: wrap;
+display: flex;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+padding-left: 48px;
+padding-top:20px ;
+padding-bottom: 20px;
+padding-right: 48px;
+background-color: rgb(18, 18, 18);
+margin-top: 10px;
+}    
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-top{
+text-align: center;
+font-size: 25px;
+color: white;
+}
+
+.pwd{
+padding-left: 5px;
+height: 30px;
+width: 300px;
+margin-top: 8px;
+border: solid;
+border-width: 1px;
+border-radius: 5px;
+}
+.content-1{
+display: block;
+}
+.content{
+display: flex;
+justify-content: center;
+}
+.text{
+height: 30px;
+width: 300px;
+padding-left: 5px;
+border: solid;
+border-width: 1px;
+border-radius: 5px;
+}
+.login-button{
+height: 30px;
+margin-top: 8px;
+width: 130px;
+border: none;
+border-radius: 4px;
+background-color: rgb(72, 125, 150);
+margin-bottom: 10px;
+cursor: pointer;
+transition: 0.5s;
+color: white;
+}
+.login-button:hover{
+background-color: rgb(36, 160, 160);
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+padding: 20px;
+background-color: rgb(18, 18, 18);
+animation: rotate-shadow 3s infinite;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+background-color: #272a2c
+}
+.remember-me{
+display: flex;
+align-items: center;
+margin-top: 0;
+margin-bottom: 5px;
+font-family: Arial;
+justify-content: center;
+text-align: center;
+
+}
+.remember-me input{
+margin: 0;
+text-align: center;
+}
+.rem{
+padding-left: 7px;
+color: white;
+
+}
+@keyframes rotate-shadow{
+0% {
+box-shadow: 0 0 10px 2px 
+rgba(0, 255, 255, 0.5),0 0 20px 5px rgba(255, 0, 255, 0.5);
+}
+50%{
+box-shadow: 0 0 30px 6px 
+rgba(0, 255, 255, 0.8),0 0 40px 10px rgba(255, 0, 255, 0.8);
+}
+100%{ box-shadow: 0 0 10px 2px 
+rgba(0, 255, 255, 0.5),0 0 20px 5px rgba(255, 0, 255, 0.5);
+}
+}

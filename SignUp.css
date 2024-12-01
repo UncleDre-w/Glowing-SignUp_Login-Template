@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    height: 100vh;
+    background-color: #272a2c
+}
+.formm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    background-color:  rgb(18, 18, 18);
+    animation: glowing 2s infinite;
+    transition: box-shadow 0.3s;
+}
+.content{
+    display: flex;
+    justify-content: center;
+   
+}
+.Signup-top{
+    font-size: 30px;
+    margin-top: 8px;
+    text-align: center;
+    color: white;
+}
+.Name{
+    height: 30px;
+    width: 300px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 5px;
+}
+.Email{
+    height: 30px;
+    width: 300px;
+    margin-top: 8px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 5px;
+}
+.pwd{
+    height: 30px;
+    width: 300px;
+    margin-top: 8px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 5px;
+}
+.Sign{
+    margin-top: 8px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(30, 135, 167);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.15s;
+    color: white;
+}
+.Sign:hover{
+    background-color: rgb(26, 94, 126);
+}
+.already{
+    color: white;
+}
+.footer{
+    margin-top: 10px;
+}
+@keyframes glowing{
+    0% {
+    box-shadow: 0 0 10px 2px 
+    rgba(0, 255, 255, 0.5)
+    }
+    25%{
+    box-shadow: 0 0 20px 4px 
+    rgba(0, 255, 255, 0.7)
+    }
+    50%{ box-shadow: 0 0 30px 6px 
+    rgba(0, 255, 255, 0.9)
+    }
+    75%{
+     box-shadow: 0 0 20px 4px 
+    rgba(0, 255, 255, 0.7)
+    }
+    100%{
+        box-shadow: 0 0 10px 2px 
+    rgba(0, 255, 255, 0.5)
+}
+    
+    
+}
